@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Titre de la page</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+    <h1 class="monh1">cc cv?</h1>
+    <h1 class="monh2"> est vraiment un bon toutou :)</h1>
+        <style>
+
+        .monh1{
+            float: left;
+            display: inline-block;
+            display: table-cell;
+            padding-left: 5%;
+            font-size: 40px;
+            color: rgb(168, 168, 168);
+        } 
+        .monh2{
+            float: left;
+            display: inline-block;
+            display: table-cell;
+            padding-left: 8px;
+            font-size: 40px;
+            color: rgb(168, 168, 168);
+        }
+        </style>
+        <br><br><br><br>
+    <img
+    src="https://placekitten.com/200/287"
+    alt="Happy cat"
+    class="img-cat"
+    />
+    <script>
+        
+        const catImage = document.querySelector('.img-cat'); //je prends ma class "img-cat" en créant une nouvelle variable pour l'image à remplacer
+            catImage.src = "https://risibank.fr/cache/stickers/d1709/170907-full.png"; // je donne une image à ma nouvelle variable
+
+        const leh1 = document.querySelector('.monh1');
+            leh1.innerHTML = prompt("donne ton nom gros bg");
+    </script>
+</body>
+</html>
